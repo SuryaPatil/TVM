@@ -48,4 +48,13 @@ Navigate to the directory in which TVM is installed. Then, navigate to the pytho
 ```bash
 cd python
 ```
-In this directory 
+In this directory, create a new ```.py``` file. In this new file, copy and paste the contents of ```export-bert```. Run this file on the command line:
+```python <filename1>.py```
+
+Now, in your current directory, you should see a file named ```single-layer.onnx```. 
+
+## Load the single-layered BERT model and run the graph
+In the current directory  create a new ```.py``` file. In this new file, copy and paste the contents of ```load-onnx```. Run this file on the command line:
+```python <filename2>.py```
+
+After running this command, you have successfully converted a single-layered BERT model to TVM format and ran an executable version of the model. 
