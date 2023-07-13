@@ -39,7 +39,7 @@ conda install -c conda-forge onnx
 conda install numpy
 ```
 If you are using a different package manager, install the dependencies using that package manager.
-Also make sure to install the dependencies mentioned at the bottom of the TVM installation instructions: https://tvm.apache.org/docs/install/from_source.html
+Also make sure to install the dependencies mentioned at the bottom of the TVM installation instructions: https://tvm.apache.org/docs/install/from_source.html.
 These dependencies include typing-extensions, psutil, and scipy.
 
 ## Configure and export a single-layered BERT model to ONNX
