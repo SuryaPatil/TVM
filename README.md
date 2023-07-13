@@ -1,6 +1,6 @@
 # Executing BERT model as TVM object
 
-The purpose of this project is to explore how one can convert a single-layered BERT model into Apache TVM’s intermediate representation (IR) and subsequently transform this IR into an executable. Below are instructions on how to use the above two source files to accomplish this task.
+The purpose of this project is to explore how one can convert a single-layered BERT model into Apache TVM’s intermediate representation (IR) and subsequently transform this IR into an executable. Below are instructions on how to use the above two source files to accomplish this task. The file ```bert-viz.jpg``` contains a visualization of the graph.
 
 
 ## Installing a Python package manager
