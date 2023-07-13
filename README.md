@@ -25,7 +25,7 @@ Activate the environment with the command
 conda activate myenv
 ```
 ## Install the necessary dependencies 
-If you are using conda, run each of the following in your terminal:
+In the virtual environment, install the necessary dependencies. If you are using conda, run each of the following in your terminal:
 ```bash
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 ```
@@ -38,7 +38,7 @@ conda install -c conda-forge onnx
 ```bash
 conda install numpy
 ```
-
+If you are using a different package manager, install the dependencies using that package manager.
 Also make sure to install the dependencies mentioned at the bottom of the TVM installation instructions: https://tvm.apache.org/docs/install/from_source.html
 These dependencies include typing-extensions, psutil, and scipy.
 
